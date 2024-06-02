@@ -9,12 +9,12 @@ const EditProfile = () => {
             <form  className="card-body grid grid-cols-2 gap-x-10">
               <div className="form-control col-span-2">
                 <label className="label">
-                  <span className="label-text">Name</span>
+                  <span className="label-text">User Name</span>
                 </label>
                 <input
                   type="text"
                   name="name"
-                  placeholder="name"
+                  placeholder="username"
                   className="input input-bordered"
                   required
                 />
