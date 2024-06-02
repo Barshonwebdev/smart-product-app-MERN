@@ -1,0 +1,104 @@
+{
+  "gadgets": [
+    {
+      "id": "1",
+      "name": "Wireless Keyboard",
+      "brand": "A4tech",
+      "price": "29.99",
+      "description": "A sleek wireless keyboard with a long battery life and responsive keys.",
+      "availability": "yes",
+      "photo_url": "https://img.freepik.com/free-photo/ar-keyboard-hologram-neon-green-smart-technology-device_53876-165520.jpg?t=st=1716840168~exp=1716843768~hmac=27c6d08fcb321b3505f93de8f1ad8e6483e779619ef79cb0b6ce2c4f45351fa9&w=826",
+      "details": "This wireless keyboard by A4tech offers an ergonomic design along with low-profile keys, ensuring comfortable typing. Its long-lasting battery supports extensive use without frequent recharges. Ideal for both office and home setups, it connects seamlessly to multiple devices, providing a clutter-free workspace."
+    },
+    {
+      "id": "2",
+      "name": "Gaming Mouse",
+      "brand": "Logitech",
+      "price": 49.99,
+      "description": "An ergonomic gaming mouse with customizable buttons and RGB lighting.",
+      "availability": "yes",
+      "photo_url": "https://img.freepik.com/free-photo/purple-computer-mouse_1260-11.jpg?t=st=1716841387~exp=1716844987~hmac=c29cc7717e7700ea9ed757116f4253ca80051526850aabf40233c0ae68038dd8&w=826",
+      "details": "The Logitech Gaming Mouse offers precision and comfort with its ergonomic design. Equipped with customizable buttons, it allows gamers to tailor their setup for optimal performance. The vibrant RGB lighting enhances the gaming experience, making it a stylish and functional addition to any setup."
+    },
+    {
+      "id": "3",
+      "name": "USB-C Hub",
+      "brand": "Ohio",
+      "price": 19.99,
+      "description": "A compact USB-C hub with multiple ports including HDMI and USB 3.0.",
+      "availability": "no",
+      "photo_url": "https://img.freepik.com/free-photo/usb-cable-type-c-red-background_58702-4512.jpg?t=st=1716841435~exp=1716845035~hmac=de1027c98bf6c1cd0ef0853039b273ffcc323026c581d86fa069e7d5e2864727&w=826",
+      "details": "Ohio's USB-C Hub expands connectivity options for your devices. This compact accessory includes HDMI and multiple USB 3.0 ports, facilitating seamless data transfer and display connections. Ideal for professionals and travelers, it ensures you stay connected and productive wherever you are."
+    },
+    {
+      "id": "4",
+      "name": "External SSD",
+      "brand": "Asus",
+      "price": 99.99,
+      "description": "A high-speed external SSD with 1TB of storage capacity.",
+      "availability": "yes",
+      "photo_url": "https://img.freepik.com/free-photo/man-using-external-storage-used_23-2149388496.jpg?t=st=1716841473~exp=1716845073~hmac=cfb42fc35db16f6d77ba33e23e9ed2ee50560806b391a55917b39e1c4e662e69&w=826",
+      "details": "The Asus External SSD offers 1TB of high-speed storage, perfect for storing large files and applications. Its robust design ensures durability, while the rapid data transfer rates enhance productivity. Ideal for both personal and professional use, it provides reliable performance on the go."
+    },
+    {
+      "id": "5",
+      "name": "Bluetooth Speaker",
+      "brand": "Microlab",
+      "price": 39.99,
+      "description": "A portable Bluetooth speaker with excellent sound quality and battery life.",
+      "availability": "yes",
+      "photo_url": "https://img.freepik.com/free-photo/electronic-device-table_417767-143.jpg?t=st=1716841511~exp=1716845111~hmac=15601166f797bcbf8ba475955c1beda79930cf6193d58a4f4d700a433fc2dc49&w=826",
+      "details": "Microlab's Bluetooth Speaker delivers impressive sound quality and long-lasting battery life. Its portable design makes it easy to carry, perfect for outdoor activities and travel. With robust connectivity options, it ensures seamless streaming from various devices, enhancing your audio experience."
+    },
+    {
+      "id": "6",
+      "name": "Webcam",
+      "brand": "Samsung",
+      "price": "59.99",
+      "description": "A high-definition webcam with autofocus and built-in microphone.",
+      "availability": "yes",
+      "photo_url": "https://img.freepik.com/free-photo/view-round-modern-webcam-with-copy-space_23-2150808003.jpg?t=st=1716841622~exp=1716845222~hmac=2dfcf4dc73e01f2be79d80e3882350e0c5411e9c354d669e02771b9cf91aed7e&w=826",
+      "details": "The Samsung Webcam offers high-definition video quality, perfect for virtual meetings and streaming. It features autofocus and a built-in microphone for clear audio-visual communication. Its sleek design and easy setup make it an excellent choice for both professional and personal use."
+    },
+    {
+      "id": "7",
+      "name": "Mechanical Keyboard",
+      "brand": "Dareu",
+      "price": 79.99,
+      "description": "A mechanical keyboard with customizable RGB backlighting and tactile switches.",
+      "availability": "yes",
+      "photo_url": "https://img.freepik.com/free-photo/view-illuminated-neon-gaming-keyboard-setup-controller_23-2149529367.jpg?t=st=1716841284~exp=1716844884~hmac=b91874593795866c65fac4f31b05c6e48d1cde5d31700067418bcd48c3371a6b&w=826",
+      "details": "The Dareu Mechanical Keyboard provides a premium typing experience with tactile switches and customizable RGB backlighting. It's designed for durability and comfort, making it ideal for gamers and professionals alike. Enhance your setup with this stylish and functional keyboard."
+    },
+    {
+      "id": "8",
+      "name": "Noise Cancelling Headphones",
+      "brand": "Ziggy",
+      "price": 129.99,
+      "description": "Over-ear noise-cancelling headphones with superior sound quality and comfort.",
+      "availability": "yes",
+      "photo_url": "https://img.freepik.com/free-photo/levitating-product-display-with-headphones_23-2149670637.jpg?t=st=1716841731~exp=1716845331~hmac=afd1348ad11b50975d4c6032f33d9d8073c16113367b73f2ee2104156bc7bf8f&w=826",
+      "details": "Ziggy's Noise Cancelling Headphones offer superior sound quality and comfort. Their over-ear design and advanced noise-cancelling technology create an immersive listening experience. Perfect for travel or home use, they provide long-lasting comfort with exceptional audio clarity."
+    },
+    {
+      "id": "9",
+      "name": "Portable Monitor",
+      "brand": "Gigabyte",
+      "price": 149.99,
+      "description": "A slim and lightweight portable monitor with a 15.6-inch display.",
+      "availability": "no",
+      "photo_url": "https://img.freepik.com/free-photo/work-desk-with-computer-cup-with-pens-pencils-against-white-wall_181624-44978.jpg?t=st=1716841786~exp=1716845386~hmac=6c8fa07ff7319f9d86be88dc251f231955783a612f66b15bdb84e1fd0b083fea&w=826",
+      "details": "Gigabyte's Portable Monitor features a 15.6-inch display, providing vibrant visuals in a slim, lightweight design. It's ideal for professionals needing extra screen space on the go. With easy connectivity and a sleek profile, it enhances productivity wherever you work."
+    },
+    {
+      "id": "10",
+      "name": "Ultra-High Charger",
+      "brand": "Dell",
+      "price": 24.99,
+      "description": "A fast tech charger compatible with most smartphones.",
+      "availability": "yes",
+      "photo_url": "https://img.freepik.com/free-photo/usb-charging-gadgets-blurred-background-room-close-up-concept-technology-everyday-life_169016-15480.jpg?t=st=1716841851~exp=1716845451~hmac=618066cdec6c648681f6a132b8ef3eb93d24921cf0b810c54839097072b62b30&w=826",
+      "details": "The Dell Ultra-High Charger provides rapid charging for most smartphones, ensuring your devices are always ready. Its compact and durable design makes it perfect for home, office, or travel. Experience efficient and reliable power delivery with this essential tech accessory."
+    }
+  ]
+}
