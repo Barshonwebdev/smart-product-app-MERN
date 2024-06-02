@@ -1,5 +1,8 @@
+import { useLoaderData } from "react-router-dom";
 
 const EditProfile = () => {
+    const userData=useLoaderData();
+    console.log(userData);
     return (
         <div>
       <h1 className="my-3 text-2xl text-gray-500 text-center"> Edit Profile</h1>
@@ -16,6 +19,7 @@ const EditProfile = () => {
                   name="name"
                   placeholder="username"
                   className="input input-bordered"
+                  defaultValue={userData?.name}
                   required
                 />
               </div>
@@ -28,6 +32,8 @@ const EditProfile = () => {
                   name="email"
                   placeholder="email"
                   className="input input-bordered"
+                  value={userData?.email}
+                  disabled
                   required
                 />
               </div>
@@ -40,6 +46,7 @@ const EditProfile = () => {
                   name="age"
                   placeholder="age"
                   className="input input-bordered"
+                  defaultValue={userData?.age}
                   required
                 />
               </div>
@@ -52,6 +59,7 @@ const EditProfile = () => {
                   name="phonenumber"
                   placeholder="phonenumber"
                   className="input input-bordered"
+                  defaultValue={userData?.phonenumber}
                   required
                 />
               </div>
@@ -68,6 +76,7 @@ const EditProfile = () => {
                   name="photo_url"
                   placeholder="photo url"
                   className="input input-bordered"
+                  defaultValue={userData?.photo}
                   required
                 />
               </div>

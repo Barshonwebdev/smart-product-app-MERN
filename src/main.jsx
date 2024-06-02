@@ -87,7 +87,8 @@ const router = createBrowserRouter([
       },
       {
         path:'/dashboardlayout/editProfile/:id',
-        element:<EditProfile></EditProfile>
+        element:<EditProfile></EditProfile>,
+        loader:({params})=>fetch(`http://localhost:3100/user/get/${params.id}`)
       }
     ]
   }
