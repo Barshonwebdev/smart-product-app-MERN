@@ -31,6 +31,31 @@ const EditProfile = () => {
                   required
                 />
               </div>
+              <div className="form-control ">
+                <label className="label">
+                  <span className="label-text">Age</span>
+                </label>
+                <input
+                  type="number"
+                  name="age"
+                  placeholder="age"
+                  className="input input-bordered"
+                  required
+                />
+              </div>
+              <div className="form-control ">
+                <label className="label">
+                  <span className="label-text">Phone Number</span>
+                </label>
+                <input
+                  type="text"
+                  name="phonenumber"
+                  placeholder="phonenumber"
+                  className="input input-bordered"
+                  required
+                />
+              </div>
+             
              
               
              
