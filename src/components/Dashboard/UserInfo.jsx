@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import useAuth from '../../hooks/useAuth';
+import { Link } from 'react-router-dom';
 
 const UserInfo = () => {
     const { user } = useAuth();
@@ -23,7 +24,7 @@ const UserInfo = () => {
               Email: <span className="font-semibold">{userInformation?.email}</span>
             </p>
             {userInformation.verified ? <p>Verified: Yes</p> : <p>Verified: No</p>}
-            <div><button className='btn btn-primary my-3 btn-sm'>Edit Profile</button></div>
+            <div><Link to={`/dashboardlayout/editprofile/${userInformation._id}`}><button className='btn btn-primary my-3 btn-sm'>Edit Profile</button></Link></div>
           </div>
         </div>
     );

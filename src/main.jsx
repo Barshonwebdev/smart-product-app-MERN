@@ -22,6 +22,7 @@ import AddProduct from './Pages/Dashboard/AddProduct';
 import ErrorPage from './Pages/ErrorPage';
 import ProductDetails from './Pages/ProductDetails';
 import EditProduct from './Pages/Dashboard/EditProduct';
+import EditProfile from './Pages/Dashboard/EditProfile';
 
 const router = createBrowserRouter([
   {
@@ -84,6 +85,10 @@ const router = createBrowserRouter([
         element:<EditProduct></EditProduct>,
         loader:({params})=>fetch(`http://localhost:3100/gadgets/${params.id}`)
       },
+      {
+        path:'/dashboardlayout/editProfile/:id',
+        element:<EditProfile></EditProfile>
+      }
     ]
   }
 ]);
