@@ -4,7 +4,7 @@ import Swal from 'sweetalert2';
 
 const EditProduct = () => {
     const product=useLoaderData();
-
+    const token=localStorage.getItem('token');
     const[name,setName]=useState(product.name);
     const[brand,setBrand]=useState(product.brand);
     const[price,setPrice]=useState(product.price);
@@ -41,6 +41,7 @@ const EditProduct = () => {
                     method:"PATCH",
                     headers:{
                         'Content-type':'application/json',
+                        authorization:`Bearer ${token}`
                     },
                     body:JSON.stringify(productData),
                 })
