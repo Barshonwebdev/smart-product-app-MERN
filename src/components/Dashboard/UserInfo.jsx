@@ -17,6 +17,7 @@ const UserInfo = () => {
               Email: <span className="font-semibold">{email}</span>
             </p>
             {emailVerified ? <p>Verified: Yes</p> : <p>Verified: No</p>}
+            <div><button className='btn btn-primary my-3 btn-sm'>Edit Profile</button></div>
           </div>
         </div>
     );
