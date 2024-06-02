@@ -28,6 +28,8 @@ const Login = () => {
         const userInfo={
           email:data?.user?.email,
           name:data?.user?.displayName,
+          verified:data?.user?.emailVerified,
+              photo:data?.user?.photoURL
         }
         fetch(`http://localhost:3100/user`,{
           method:"POST",
@@ -51,6 +53,8 @@ const Login = () => {
         const userInfo={
           email:data?.user?.email,
           name:data?.user?.displayName,
+          verified:data?.user?.emailVerified,
+              photo:data?.user?.photoURL
         }
         fetch(`http://localhost:3100/user`,{
           method:"POST",

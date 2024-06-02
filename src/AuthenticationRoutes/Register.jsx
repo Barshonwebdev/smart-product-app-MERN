@@ -29,6 +29,8 @@ const Register = () => {
             const userInfo={
               email:data?.user?.email,
               name:name,
+              verified:data?.user?.emailVerified,
+              photo:data?.user?.photoURL
             }
             fetch(`http://localhost:3100/user`,{
               method:"POST",
