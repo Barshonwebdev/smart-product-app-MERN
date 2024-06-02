@@ -2,14 +2,26 @@ import { useLoaderData } from "react-router-dom";
 
 const EditProfile = () => {
     const userData=useLoaderData();
-    console.log(userData);
+    const handleEditProfile=(e)=>{
+        e.preventDefault();
+        const form=e.target;
+        const name=form.name.value;
+        const age=form.age.value;
+        const phonenumber=form.phonenumber.value;
+        const photo=form.photo_url.value;
+
+        const userInformation={
+            name,age,email:userData?.email,phonenumber,photo
+        }
+        console.log(userInformation);
+    }
     return (
         <div>
       <h1 className="my-3 text-2xl text-gray-500 text-center"> Edit Profile</h1>
       <div className="hero  ">
         <div className="hero-content  flex-col lg:flex-row-reverse">
           <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-            <form  className="card-body grid grid-cols-2 gap-x-10">
+            <form onSubmit={handleEditProfile} className="card-body grid grid-cols-2 gap-x-10">
               <div className="form-control col-span-2">
                 <label className="label">
                   <span className="label-text">User Name</span>
