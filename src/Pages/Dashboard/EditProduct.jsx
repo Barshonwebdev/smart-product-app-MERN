@@ -71,7 +71,7 @@ const EditProduct = () => {
                       placeholder="name"
                       className="input input-bordered"
                       value={name}
-                      onChange={(e)=>setName(e.target.value)}
+                      onChange={(e)=>setName(e.target.value)} 
                       required
                     />
                   </div>
